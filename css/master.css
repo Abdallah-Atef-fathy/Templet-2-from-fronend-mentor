@@ -1,0 +1,169 @@
+/* Start Basics */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    position: relative;
+    /* Font siz */
+}
+
+/* End Basics */
+/* Start Project */
+section {
+    display: flex;
+    justify-content: center;
+    height: 420px;
+    margin: auto;
+    width: 800px;
+    margin-top: 20%;
+}
+
+@media (max-width:769px) {
+    section {
+        flex-wrap: wrap;
+        max-width: 100%;
+        border-radius: 0px;
+        padding: 0px 20px;
+        width: 400px;
+    }
+}
+
+/* Start SEDANS */
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.sedans .icon {
+    padding: 40px;
+}
+
+.sedans h1 {
+    padding: 0 40px;
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.sedans p {
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 20px 40px;
+    padding-bottom: 60px;
+    font-size: small;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: 'Big Shoulders Display', sans-serif;
+}
+
+.sedans button {
+    cursor: pointer;
+    margin-left: 40px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    color: hsl(31, 77%, 52%);
+    transition: 0.5s;
+}
+
+.sedans button:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    border: 1px solid hsl(0, 0%, 95%);
+}
+
+/* End SEDANS */
+/* Start Suvs */
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.suvs .icon {
+    padding: 40px;
+}
+
+.suvs h1 {
+    padding: 0 40px;
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.suvs p {
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 20px 40px;
+    padding-bottom: 60px;
+    font-size: small;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: 'Big Shoulders Display', sans-serif;
+}
+
+.suvs button {
+    cursor: pointer;
+    margin-left: 40px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    color: hsl(184, 100%, 22%);
+    transition: 0.5s;
+}
+
+.suvs button:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+    border: 1px solid hsl(0, 0%, 95%);
+}
+
+/* End Suvs */
+/* Start Luxury */
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.luxury .icon {
+    padding: 40px;
+}
+
+.luxury h1 {
+    padding: 0 40px;
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.luxury p {
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 20px 40px;
+    padding-bottom: 60px;
+    font-size: small;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: 'Big Shoulders Display', sans-serif;
+}
+
+.luxury button {
+    cursor: pointer;
+    margin-left: 40px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    color: hsl(179, 100%, 13%);
+    transition: 0.5s;
+}
+
+.luxury button:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+    border: 1px solid hsl(0, 0%, 95%);
+}
+
+/* End Luxury */
+/* End Project */
